@@ -4,7 +4,7 @@ let order = 10;
 let a = 0;
 
 function setup() {
-  createCanvas(300, 300);
+  createCanvas(1024,1024);
   colorMode(HSB, 255);
   background(0);
   hilbert(order, 0, 0, min(height, width), 'up');
