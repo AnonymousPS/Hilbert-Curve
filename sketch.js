@@ -4,7 +4,7 @@ let order = 10;
 let a = 0;
 
 function setup() {
-  let size = max(windowWidth,windowHeight);
+  let size = min(windowWidth,windowHeight);
   createCanvas(size, size);
   colorMode(HSB, 255);
   background(0);
