@@ -4,7 +4,8 @@ let order = 10;
 let a = 0;
 
 function setup() {
-  createCanvas(1024,1024);
+  let size = max(windowWidth,windowHeight);
+  createCanvas(size, size);
   colorMode(HSB, 255);
   background(0);
   hilbert(order, 0, 0, min(height, width), 'up');
